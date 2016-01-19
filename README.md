@@ -5,7 +5,9 @@ Monitor prices amazon wish lists it's a project that can track wish lists Amazon
 
 1. Download code
 2. Import into eclipse IDE
-3. Create a script sql with wishlist in db/apricedb.script. For example: INSERT INTO DESEO VALUES('http://www.amazon.es/registry/wishlist/XXXXXXXXXXXX')
+3. Create a script sql with wishlist in db/apricedb.script. 
+	For example: INSERT INTO DESEO VALUES('http://www.amazon.es/registry/wishlist/XXXXXXXXXXXX'). You can insert as many as you want.
+	It is very important that the wish lists are public or shared on Amazon. The system does not work with private lists.
 4. Compiles and generates a .jar
 5. Create a directory (for example C:/APT) with this files:
 	+ db (contais db script)
